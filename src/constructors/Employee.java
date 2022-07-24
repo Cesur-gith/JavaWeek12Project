@@ -9,7 +9,7 @@ public class Employee  {
 
 
     static{
-        companyName= " Microsoft"; //
+        companyName= " Microsoft"; //This value is same for all the objects of this class
     }
 
     public Employee(){
@@ -27,4 +27,14 @@ public class Employee  {
 
     }
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", jobTitle='" + jobTitle + '\'' +
+                ", ID=" + ID +
+                ", salary=" + salary +
+                ", company Name= "+ companyName+
+                '}';
+    }
 }

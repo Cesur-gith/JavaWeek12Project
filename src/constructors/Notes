@@ -1,3 +1,13 @@
 Constructor: special methods, It is a MUST for a class, it might be used to initialize your fields
 
 Object : new ClassName()  ----> we are invoking/calling the constructor
+
+Task 1
+Employee:
+    attributes/fields/variables
+    name, jobTitle,ID, Salary
+
+    add a constructor to initialize all the fields
+    add a default constructor with no fiels
+
+    static as a scope affect all the chnages and other
